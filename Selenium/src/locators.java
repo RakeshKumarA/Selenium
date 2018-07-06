@@ -11,6 +11,8 @@ public class locators {
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("r_akes_h05@yahoo.com"); //by xpath
 		//driver.findElement(By.xpath("//*[@id='loginbutton']")).click(); // to click login
 		driver.findElement(By.linkText("Forgot account?")).click();  // click the linktext
+		
+		// for validating, we can just use $x("x-path") or $("css-locator")
 	}
 
 }
