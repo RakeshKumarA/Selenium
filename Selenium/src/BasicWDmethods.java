@@ -13,6 +13,7 @@ public class BasicWDmethods {
 		System.out.println(driver.getClass());
 		System.out.println(driver.getWindowHandle());
 		driver.close();
+		// git ignore added
 
 	}
 
